@@ -13,7 +13,7 @@ struct ContentView: View {
         IndexView().environmentObject(globalModel)
             .onAppear() {
                 globalModel.darkModeSettings = globalModel.darkModeSettings
-            }
+            }.navigationViewStyle(.stack)
     }
 }
 

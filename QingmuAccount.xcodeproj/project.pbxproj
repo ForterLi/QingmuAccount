@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DE8D2D3EA8224B9B84F6E09 /* Pods_QingmuAccount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AEF8F2B7CB398D72A2BC17 /* Pods_QingmuAccount.framework */; };
 		D525839429461F4D00DE5D61 /* SelfSwiperNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D525839129461F4D00DE5D61 /* SelfSwiperNotification.swift */; };
 		D525839529461F4D00DE5D61 /* SelfSwiper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D525839229461F4D00DE5D61 /* SelfSwiper.swift */; };
 		D5258398294629AB00DE5D61 /* AccountBookRecordEditComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5258397294629AB00DE5D61 /* AccountBookRecordEditComponent.swift */; };
@@ -106,9 +107,12 @@
 		D5FF26FC2957334200E3B7A6 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FF26FB2957334200E3B7A6 /* Pie.swift */; };
 		D5FF26FE2957337600E3B7A6 /* PiePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FF26FD2957337600E3B7A6 /* PiePath.swift */; };
 		D5FF2700295733A700E3B7A6 /* PieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FF26FF295733A700E3B7A6 /* PieData.swift */; };
+		E9CD68D429A8915C00E84324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CD68D329A8908E00E84324 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		017194C17323D9486D4FF0A3 /* Pods-QingmuAccount.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QingmuAccount.debug.xcconfig"; path = "Target Support Files/Pods-QingmuAccount/Pods-QingmuAccount.debug.xcconfig"; sourceTree = "<group>"; };
+		15259A3B4B52CFBC1069DEB3 /* Pods-QingmuAccount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QingmuAccount.release.xcconfig"; path = "Target Support Files/Pods-QingmuAccount/Pods-QingmuAccount.release.xcconfig"; sourceTree = "<group>"; };
 		D525839129461F4D00DE5D61 /* SelfSwiperNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSwiperNotification.swift; sourceTree = "<group>"; };
 		D525839229461F4D00DE5D61 /* SelfSwiper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfSwiper.swift; sourceTree = "<group>"; };
 		D5258397294629AB00DE5D61 /* AccountBookRecordEditComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBookRecordEditComponent.swift; sourceTree = "<group>"; };
@@ -210,6 +214,9 @@
 		D5FF26FB2957334200E3B7A6 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		D5FF26FD2957337600E3B7A6 /* PiePath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiePath.swift; sourceTree = "<group>"; };
 		D5FF26FF295733A700E3B7A6 /* PieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieData.swift; sourceTree = "<group>"; };
+		D6AEF8F2B7CB398D72A2BC17 /* Pods_QingmuAccount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QingmuAccount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9CD68D329A8908E00E84324 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9CD68D529A8B74600E84324 /* QingmuAccount-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QingmuAccount-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,12 +224,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE8D2D3EA8224B9B84F6E09 /* Pods_QingmuAccount.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10E10F20BCAEA42C84351C20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				017194C17323D9486D4FF0A3 /* Pods-QingmuAccount.debug.xcconfig */,
+				15259A3B4B52CFBC1069DEB3 /* Pods-QingmuAccount.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A18A7B70F19343191B1452D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6AEF8F2B7CB398D72A2BC17 /* Pods_QingmuAccount.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D52160952977A62F00532653 /* service */ = {
 			isa = PBXGroup;
 			children = (
@@ -463,6 +488,8 @@
 			children = (
 				D5A5BB46292EFCE8004E4BFF /* QingmuAccount */,
 				D5A5BB45292EFCE8004E4BFF /* Products */,
+				10E10F20BCAEA42C84351C20 /* Pods */,
+				A18A7B70F19343191B1452D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -477,9 +504,11 @@
 		D5A5BB46292EFCE8004E4BFF /* QingmuAccount */ = {
 			isa = PBXGroup;
 			children = (
+				E9CD68D529A8B74600E84324 /* QingmuAccount-Bridging-Header.h */,
 				D5558DE5293238A500C667B4 /* Info.plist */,
 				D5A5BB47292EFCE8004E4BFF /* QingmuAccountApp.swift */,
 				D5A5BB49292EFCE8004E4BFF /* ContentView.swift */,
+				E9CD68D329A8908E00E84324 /* LaunchScreen.storyboard */,
 				D5A5BB5B292FBA82004E4BFF /* views */,
 				D5A5BB55292EFD24004E4BFF /* components */,
 				D56DBFBA293059130017F7FC /* models */,
@@ -689,6 +718,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5A5BB52292EFCEA004E4BFF /* Build configuration list for PBXNativeTarget "QingmuAccount" */;
 			buildPhases = (
+				40FA19276AC68B3F147E61B8 /* [CP] Check Pods Manifest.lock */,
 				D5A5BB40292EFCE8004E4BFF /* Sources */,
 				D5A5BB41292EFCE8004E4BFF /* Frameworks */,
 				D5A5BB42292EFCE8004E4BFF /* Resources */,
@@ -714,6 +744,7 @@
 				TargetAttributes = {
 					D5A5BB43292EFCE8004E4BFF = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -741,12 +772,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				D580E11729768D7B0053118D /* icomoon.ttf in Resources */,
+				E9CD68D429A8915C00E84324 /* LaunchScreen.storyboard in Resources */,
 				D5A5BB4F292EFCEA004E4BFF /* Preview Assets.xcassets in Resources */,
 				D5A5BB4C292EFCEA004E4BFF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40FA19276AC68B3F147E61B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QingmuAccount-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5A5BB40292EFCE8004E4BFF /* Sources */ = {
@@ -971,21 +1028,25 @@
 		};
 		D5A5BB53292EFCEA004E4BFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017194C17323D9486D4FF0A3 /* Pods-QingmuAccount.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"QingmuAccount/Preview Content\"";
-				DEVELOPMENT_TEAM = 227P739LQL;
+				DEVELOPMENT_TEAM = D24A64J5VZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QingmuAccount/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "青木账本";
+				INFOPLIST_KEY_CFBundleDisplayName = "小鹤账本";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -994,34 +1055,40 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = acthat.QingmuAccount;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forter.xiaohe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "QingmuAccount/QingmuAccount-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		D5A5BB54292EFCEA004E4BFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15259A3B4B52CFBC1069DEB3 /* Pods-QingmuAccount.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"QingmuAccount/Preview Content\"";
-				DEVELOPMENT_TEAM = 227P739LQL;
+				DEVELOPMENT_TEAM = D24A64J5VZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QingmuAccount/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "青木账本";
+				INFOPLIST_KEY_CFBundleDisplayName = "小鹤账本";
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -1030,14 +1097,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = acthat.QingmuAccount;
+				PRODUCT_BUNDLE_IDENTIFIER = com.forter.xiaohe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "QingmuAccount/QingmuAccount-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
